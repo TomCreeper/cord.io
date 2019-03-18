@@ -27,16 +27,16 @@ bot.on("message", function(user, userID, channelID, message, event) {
 });
 
 bot.on("presence", function(user, userID, status, game, event) {
-	/*console.log(user + " is now: " + status);*/
+	console.log(user + " is now: " + status);
 });
 
 bot.on("any", function(event) {
-	/*console.log(rawEvent)*/ //Logs every event
+	console.log(rawEvent) //Logs every event
 });
 
 bot.on("disconnect", function() {
 	console.log("Bot disconnected");
-	/*bot.connect()*/ //Auto reconnect
+	bot.connect() //Auto reconnect
 });
 
 /*Function declaration area*/
