@@ -23,8 +23,8 @@ A small, single-file, fully featured [Discordapp](https://discordapp.com) librar
 ### Getting Started:
 
 #### Installing
-**[Latest](https://github.com/Woor/discord.io/tree/gateway_v6)**
-`npm install Woor/discord.io#gateway_v6`
+**[Latest](https://github.com/TomCreeper/cord.io/tree/gateway_v6)**
+`npm install TomCreeper/cord.io#gateway_v6`
 
 #### Example
 ```javascript
