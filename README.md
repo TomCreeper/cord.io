@@ -23,8 +23,8 @@ A small, single-file, fully featured [Discordapp](https://discordapp.com) librar
 ### Getting Started:
 
 #### Installing
-**[Latest](https://github.com/TomCreeper/cord.io/tree/gateway_v6)**
-`npm install TomCreeper/cord.io#gateway_v6`
+**[Latest](https://github.com/Tominous/cord.io/tree/gateway_v6)**
+`npm install Tominous/cord.io#gateway_v6`
 
 #### Example
 ```javascript
@@ -40,10 +40,10 @@ bot.on('ready', function() {
 });
 
 bot.on('message', function(user, userID, channelID, message, event) {
-    if (message === "ping") {
+    if (message === "!ping") {
         bot.sendMessage({
             to: channelID,
-            message: "pong"
+            message: "Pong"
         });
     }
 });
