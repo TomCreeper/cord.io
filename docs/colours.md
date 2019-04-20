@@ -1,6 +1,6 @@
-There are two ways to set role colors with this lib.
+There are two ways to set role colours with this lib.
 
-The first method allows you to provide any color you want, as a Number. I recommend using Hex numbers as this maps easily to HTML color codes. Assuming you want to use the color `#F35353`, you can just use `0xF35353`
+The first method allows you to provide any colour you want, as a Number. I recommend using Hex numbers as this maps easily to HTML color codes. Assuming you want to use the colour `#F35353`, you can just use `0xF35353`
 
 ```js
 bot.editRole({
@@ -8,14 +8,14 @@ bot.editRole({
 });
 ```
 
-The second method is providing the name of one of the official colors Discord has on its picker. The name you type will map to one of the colors below.
+The second method is providing the name of one of the official colours Discord has on its picker. The name you type will map to one of the colours below.
 ```javascript
 bot.editRole({
 	color: "RED"
 });
 ```
 
-Official color list:
+Official colour list:
 ```javascript
 DEFAULT: 0,
 AQUA: 1752220,
